@@ -1,0 +1,175 @@
+body {
+	font-family: Arial;
+	text-align: center;
+	background-color: blue;
+}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 80px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+#buttons{
+	margin-top: 5px;
+}
+
+#content {
+	background: black;
+	color: white;
+	overflow: auto;
+}
+
+#picture {
+	margin: 15px;
+}
+
+#content{
+	/*margin-right: 10px;*/
+	margin-top: 12px;
+	
+}
+
+p {
+	/*margin-top: 5px;*/
+	font-size: 16px;
+}
+
+#arms1 {
+	margin: 15px;
+}
+
+#arms2 {
+	margin-right: 5px;
+	margin-top: 10px;
+}
+
+.comments {
+	position: relative;
+	border: 2px solid black;
+	width: 350px;
+	height: 235px;
+	/*margin-bottom: -25px;*/
+	background: white;
+	/*overflow: auto;*/
+}
+
+#next{
+	margin: 25px;
+	text-align: center;
+}
+
+#prev{
+	margin: 25px;
+}
+
+
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+
+
+h2 {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+h3 {
+	margin-top: 20px;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+
+
+
+button {
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 6px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #222;
+}
+
+input {
+	padding: 6px 8px;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+	font-size: 20px;
+}
+
+.articleURL {
+	text-align: center;
+	margin: 10px;
+}
+
+#comment-holder>p {
+	margin-top: 0;
+}
+
+
+@media (max-width: 1600px) {
+	#picture, #content {
+		width: 350px;
+		height: 197px;
+		border: 2px solid black;
+		text-align: center;
+	}
+	#picture {
+		margin-left: 60px;
+	}
+	#lifter {
+		margin-top: 90px;
+		max-width: 370px;
+	}
+}
+
+@media (max-width: 1200px) {
+  #picture, #content {
+		width: 300px;
+		height: 169px;
+		border: 2px solid black;
+		text-align: center;
+	}
+	#picture {
+		margin-left: 20px;
+	}
+	#lifter {
+		margin-top: 80px;
+		max-width: 140px;
+	}
+}
+
+@media (max-width: 768px) {
+  #picture, #content {
+		width: 192px;
+		height: 108px;
+		border: 2px solid black;
+		text-align: center;
+	}
+	#picture {
+		margin-left: 5px;
+	}
+	#lifter {
+		margin-top: 60px;
+		max-width: 100px;
+	}
+}
+
